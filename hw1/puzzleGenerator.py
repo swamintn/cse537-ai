@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+"""
+This code was provided by Stony Brook Univeristy as part of the problem setup
+"""
 import random
 import sys
 

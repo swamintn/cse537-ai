@@ -2,6 +2,7 @@ Map-coloring CSP solvers
 
 1) dfsb.py - Solver using Depth-First Search approach
 2) minconflicts.py - Solver using Local Search approach
+   (Use --help on both to see how to run)
 
 A map coloring problem is one where different sections/areas of the map
 need to be colored with the assurance that no two adjacent areas have the same
@@ -16,3 +17,5 @@ have a constraint, a pair of two area numbers who must not have the same color.
 The solvers will assign a color (colors go from 0 to M-1) to each area, if
 possible. The output file will have the color value for each area, written out
 in order from area 0 to area N-1.
+
+An example input file and report on tests run have been included.
