@@ -1,0 +1,7 @@
+A* and IDA* algorithms to solve tile puzzles.
+
+- Use puzzleGenerator.py to generate puzzles
+- Use puzzleSolver.py to solve puzzles
+  (Do --help on both to see how to run)
+
+An example input file and a report on tests run have also been included.
