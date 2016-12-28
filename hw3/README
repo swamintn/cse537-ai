@@ -2,7 +2,7 @@ Text analyzer and classifier
 
 Scripts and Files included:
 --------------------------
-1) text_analyzer.py: This is the script used to analyze all algorithms in part.
+1) text_analyzer.py: This is the script used to analyze all algorithms.
    It accepts as input the location of the training and test data and an output
    png filename to draw the plots. This script will also print results in a
    tabular format.
@@ -29,6 +29,8 @@ Pickle file generated: full_model.pkl
    the test data alone. It expects the above full_model.pkl file to be in the
    current working directory.
 Example run: run_model_with_best_config.py /user/Selected_20NewsGroup/Test
+
+(Do --help on any script to see details on how to run)
 
 The report file on the tests run and a zipped version of the dataset have also
 been included.
