@@ -37,8 +37,7 @@ Execution:
 Extra helpers:
     As an added benefit, once you've called solve, you can call print_steps_to_solution to
     print a nice visual representation of how the goal is reached from the start.
-    This line has been added at the end of this program but is commented out. 
-    Uncomment it if you wish to see the steps to the solution
+    This line has been added at the end of this program.
 
 @author: Swaminathan Sivaraman
 """
@@ -406,7 +405,9 @@ def main():
     out_fd.write(','.join(puzzle.solution) + '\n')
     out_fd.close()
 
+    print('Solution is ', ','.join(puzzle.solution) + '\n')
     # Print steps to solution
+    print('Printing solution steps...')
     puzzle.print_steps_to_solution()
 
 if __name__ == '__main__':
